@@ -1,3 +1,4 @@
+from src import contabilizar
 rounds = [
  {
  'Shadow': {'kills': 2, 'assists': 1, 'deaths': True},
@@ -36,12 +37,16 @@ rounds = [
  }
  ]
 tablaTotal={
-    'Shadow': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0},
- 'Blaze': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0},
- 'Viper': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0},
- 'Frost': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0},
- 'Reaper': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0}
+    'Shadow': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0, 'puntos': 0},
+ 'Blaze': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0, 'puntos': 0},
+ 'Viper': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0, 'puntos': 0},
+ 'Frost': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0, 'puntos': 0},
+ 'Reaper': {'kills': 0, 'assists': 0, 'muertes': 0, 'MVP': 0, 'puntos': 0}
 }
+    
+    
 for i,ronda in enumerate(rounds, start=1):
+    ronda_scores = {}
     print(f"Ranking Ronda {i}")
+    contabilizar(ronda,tablaTotal,ronda_scores)
     
