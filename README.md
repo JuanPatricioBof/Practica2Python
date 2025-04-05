@@ -3,7 +3,7 @@
 
 Este proyecto analiza los resultados de varias partidas de un juego tipo shooter, contabilizando estadísticas por jugador como kills, asistencias, muertes y MVPs. También se genera una tabla final con los puntajes acumulados.
 
-## 📁 Estructura del Proyecto
+##  Estructura del Proyecto
 
 ```
 Practica2Entregar/
@@ -19,11 +19,11 @@ Practica2Entregar/
 └── README.md            # Este archivo
 ```
 
-## 🚀 ¿Cómo ejecutar el proyecto?
+##  ¿Cómo ejecutar el proyecto?
 
 Podés trabajar de dos formas:
 
-### ✅ Opción 1: Usando el notebook
+###  Opción 1: Usando el notebook
 
 1. Asegurate de estar en la raíz del proyecto.
 2. Activá tu entorno virtual si tenés uno.
@@ -35,7 +35,7 @@ Podés trabajar de dos formas:
 
 ---
 
-### ✅ Opción 2: Usando el archivo main.py
+###  Opción 2: Usando el archivo main.py
 
 1. Estando en la raíz del proyecto, simplemente corré:
    ```bash
@@ -46,7 +46,7 @@ Este archivo llama a las funciones definidas en `src/__init__.py` para procesar 
 
 ---
 
-## 📦 Instalación de Dependencias
+##  Instalación de Dependencias
 
 Se recomienda usar un entorno virtual:
 
@@ -75,7 +75,7 @@ igual, como solo tiene la dependencia notebook seria solo este comando
 
 
 
-## ℹ️ Notas
+##  Notas
 
 - Las funciones de análisis están en `src/__init__.py`, en particular en `contabilizar`
 - Las rondas de prueba están cargadas en el notebook y en el `main.py`.
